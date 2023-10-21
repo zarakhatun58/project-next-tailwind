@@ -1,0 +1,8 @@
+.sidebar-item {
+    color: #333;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+  }
+  .sidebar-item:hover {
+    color: #e78c45;
+  }

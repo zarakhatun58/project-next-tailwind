@@ -1,16 +1,7 @@
 import React, { useState } from "react";
+import "./Styles.css";
 
 const AccountForm = () => {
-  const [toggle1, setToggle1] = useState(false);
-  const [toggle2, setToggle2] = useState(false);
-
-  const handleToggle1 = () => {
-    setToggle1(!toggle1);
-  };
-
-  const handleToggle2 = () => {
-    setToggle2(!toggle2);
-  };
   const handleSave = () => {
     // Add your save logic here
     console.log("Save button clicked");
@@ -29,7 +20,7 @@ const AccountForm = () => {
           <p className="text-xs">* required fields</p>
         </div>
         <div className="mb-4 flex">
-          <label for="email" className="text-gray-700 w-64">
+          <label htmlFor="email" className="text-gray-700 w-64">
             E-mail *<p className="text-xs">your login e-mail address</p>
           </label>
           <input
@@ -40,7 +31,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="firstname" className="text-gray-700 w-64">
+          <label htmlFor="firstname" className="text-gray-700 w-64">
             First Name *
           </label>
           <input
@@ -51,7 +42,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="lastname" className="text-gray-700 w-64">
+          <label htmlFor="lastname" className="text-gray-700 w-64">
             Last Name *
           </label>
           <input
@@ -62,7 +53,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="address" className="text-gray-700 w-64">
+          <label htmlFor="address" className="text-gray-700 w-64">
             Address *
           </label>
           <input
@@ -73,7 +64,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="email" className="text-gray-700 w-64">
+          <label htmlFor="email" className="text-gray-700 w-64">
             Postcode *
           </label>
           <input
@@ -84,7 +75,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="city" className="text-gray-700 w-64">
+          <label htmlFor="city" className="text-gray-700 w-64">
             City *
           </label>
           <input
@@ -95,7 +86,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="state" className="text-gray-700 w-64">
+          <label htmlFor="state" className="text-gray-700 w-64">
             State
           </label>
           <input
@@ -106,7 +97,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="country" className="text-gray-700 w-64">
+          <label htmlFor="country" className="text-gray-700 w-64">
             Country *
           </label>
           <input
@@ -117,7 +108,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="company" className="text-gray-700 w-64">
+          <label htmlFor="company" className="text-gray-700 w-64">
             Company
           </label>
           <input
@@ -129,7 +120,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="tax" className="text-gray-700 w-64">
+          <label htmlFor="tax" className="text-gray-700 w-64">
             Tax ID
           </label>
           <input
@@ -141,7 +132,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="website" className="text-gray-700 w-64">
+          <label htmlFor="website" className="text-gray-700 w-64">
             Website
           </label>
           <input
@@ -153,7 +144,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="service" className="text-gray-700 w-64">
+          <label htmlFor="service" className="text-gray-700 w-64">
             Service Notifications
           </label>
           <input
@@ -165,7 +156,7 @@ const AccountForm = () => {
           />
         </div>
         <div className="mb-4 flex">
-          <label for="invoices" className="text-gray-700 w-64">
+          <label htmlFor="invoices" className="text-gray-700 w-64">
             Receive Email Invoices
           </label>
           <input
@@ -204,7 +195,7 @@ const AccountForm = () => {
           </p>
         </div>
         <div className="mb-8 flex">
-          <label for="password" className="text-gray-700 w-64">
+          <label htmlFor="password" className="text-gray-700 w-64">
             Password
           </label>
           <input

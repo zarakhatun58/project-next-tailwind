@@ -1,14 +1,15 @@
 import Link from "next/link";
 import React from "react";
-import logo from "../Assets/images/logo.png";
+import logo from "../../Assets/images/logo.png";
 import Image from "next/image";
+import "./Styles.css";
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between p-4 bg-[#283F59] text-white nav-content">
       <div className="flex items-center ml-4">
         <Link href="/">
-          <Image src={logo} alt="My Image" className="logo" />
+          <Image src={logo} alt="My Image" className="logo" priority={true} />
         </Link>
       </div>
       <nav className="mr-4">

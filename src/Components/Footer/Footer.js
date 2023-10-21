@@ -1,9 +1,9 @@
-import github from "../Assets/images/github.png";
-import facebook from "../Assets/images/facebook.png";
-import instagram from "../Assets/images/instagram.png";
-import youtube from "../Assets/images/youtube.png";
-import twitter from "../Assets/images/twitter.png";
-import linkedin from "../Assets/images/linkedin.png";
+import github from "../../Assets/images/github.png";
+import facebook from "../../Assets/images/facebook.png";
+import instagram from "../../Assets/images/instagram.png";
+import youtube from "../../Assets/images/youtube.png";
+import twitter from "../../Assets/images/twitter.png";
+import linkedin from "../../Assets/images/linkedin.png";
 import "./Styles.css";
 import Image from "next/image";
 
@@ -13,12 +13,42 @@ const Footer = () => {
       <div>
         <div className="footer-first-content">
           <div className="social">
-            <Image src={github} alt="social" className="p-1" />
-            <Image src={facebook} alt="social" className="p-1" />
-            <Image src={instagram} alt="social" className="p-1" />
-            <Image src={youtube} alt="social" className="p-1" />
-            <Image src={twitter} alt="social" className="p-1" />
-            <Image src={linkedin} alt="social" className="p-1" />
+            <Image
+              src={github}
+              alt="social"
+              className="p-1 icons"
+              priority={true}
+            />
+            <Image
+              src={facebook}
+              alt="social icons"
+              className="p-1"
+              priority={true}
+            />
+            <Image
+              src={instagram}
+              alt="social"
+              className="p-1 icons"
+              priority={true}
+            />
+            <Image
+              src={youtube}
+              alt="social"
+              className="p-1 icons"
+              priority={true}
+            />
+            <Image
+              src={twitter}
+              alt="social"
+              className="p-1 icons"
+              priority={true}
+            />
+            <Image
+              src={linkedin}
+              alt="social"
+              className="p-1 icons"
+              priority={true}
+            />
           </div>
           <div>
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
@@ -98,7 +128,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="copy-right-text">
-            © 2022 Exchagerate API, an APILayer product. All rights reserved.
+            © 2022 Exchange rate API, an APILayer product. All rights reserved.
           </p>
         </div>
       </div>

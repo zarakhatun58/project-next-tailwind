@@ -1,0 +1,17 @@
+.nav-content {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 70px;
+}
+.logo {
+  height: 40px;
+  width: 305px;
+}
+.navbar-item {
+  color: #ffffff;
+  /* padding: 5px; */
+}
+.navbar-item:hover {
+  border-radius: 3px;
+  border: 2px solid #d7d7d9;
+}

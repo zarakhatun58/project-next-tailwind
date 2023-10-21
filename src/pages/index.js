@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
-import AccountForm from "./AccountForm";
-import Footer from "./Footer";
+import Header from "../Components/Header/Header";
+import Sidebar from "../Components/Sidebar/Sidebar";
+import AccountForm from "../Components/AccountForm/AccountForm";
+import Footer from "../Components/Footer/Footer";
 
 const HomePage = () => {
   return (
